@@ -12,11 +12,9 @@
       rel="stylesheet"
     />
     <!-- Font awesome cdn -->
-    <script
-      src="https://kit.fontawesome.com/cd5373aa20.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Tailwind cdn -->
+    <script src="https://kit.fontawesome.com/f788a65d9b.js" crossorigin="anonymous"></script>
+
+   <!-- Tailwind cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -30,5 +28,49 @@
       };
     </script>
   </head>
-  <body></body>
+  <body class="max-w-screen-xl mx-auto px-8 lg:px-28 border border-red-500">
+    <!-- Header section -->
+    <header class="lg:flex pt-6 mb-20 border border-red-500">
+      <!-- Text content -->
+      <section>
+        <h1 class="text-5xl md:text-6xl mb-7 font-semibold pt-14">
+          It's good <br />
+          tea time at The <br />
+          Tea House
+        </h1>
+        <p class="text-gray-500 w-3/4 mb-3">
+          Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your
+          Taste Buds.
+        </p>
+        <button class="bg-gradient-to-r from-orange-500 to-red-600 px-5 py-3 rounded-lg text-white font-semibold">
+          Explore More<i class="fa-solid fa-arrow-right -rotate-45 ml-2"></i></i>
+        </button>
+      </section>
+      <!-- Image content -->
+      <section class="mt-12">
+        <div class="relative">
+          <!-- Image -->
+          <div>
+            <img class="w-full" src="images/banner.png" alt="">
+          </div>
+          <!-- Card -->
+           <div class="absolute flex justify-center items-center bg-white shadow-lg p-2 md:px-6 lg:py-4 rounded-lg top-28 md:top-80 md:right-64">
+            <!-- icon -->
+             <div><i class="fa-solid fa-star text-4xl text-yellow-400"></i></div>
+            <!-- icon content -->
+             <div class="ml-2">
+              <h2 class="text-2xl font-bold">5.00</h3>
+              <p class="text-gray-500">Trust Pilot Ratings</p>
+             </div>
+           </div>
+        </div>
+      </section>
+    </header>
+
+    <!-- Main section -->
+    <main></main>
+
+    <!-- Footer section -->
+    <footer></footer>
+  </body>
 </html>
